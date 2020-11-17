@@ -1,0 +1,53 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* P A R A L L A X */
+#scene {
+    background: url(../images/parallax/bg.png) no-repeat top center;
+    background-size: cover;
+    width: 100%;
+    margin: 0 auto;
+    height: 400px;
+    overflow: hidden;
+    padding: 0;
+}
+
+#p-land {
+    top: 200px !important;
+    margin-left: -100px;
+}
+#p-mid {
+    top: 180px !important;
+    margin-left: 120px;
+}
+#p-cloud {
+    top: 70px !important;
+    margin-left: -70px;
+}
+#p-sun {
+    top: 43px !important;
+    margin-left: 50%;
+    pointer-events: initial;
+    display: inline-block !important;
+}
+#p-sun:hover {
+    cursor: pointer;
+    z-index: 10;
+    transform: scale(1.2) !important;
+}
