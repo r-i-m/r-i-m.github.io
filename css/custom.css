@@ -238,6 +238,9 @@ h2 {
 #contact input {
     width: 45%;
 }
+#contact textarea::placeholder {
+    text-align: center;
+}
 #contact textarea {
     resize: none;
     max-width: 100%;
