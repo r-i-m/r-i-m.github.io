@@ -37,9 +37,9 @@ body {
 }
 #container {
     position: fixed;
-    top: 3%;
+    top: 4%;
     width: 90%;
-    left: 6.5%;
+    left: 20%;
     border: solid #313131 5px;
     box-shadow: #000000bb 0 0 30px;
     height: 90%;
@@ -79,6 +79,7 @@ header .content {
     justify-content: right;
     position: relative;
     height: 450px;
+    padding-bottom: 30px;
 }
 .presentation img {
     position: absolute;
@@ -334,10 +335,19 @@ footer i {
 
 
 /*   RESPONSIVE   */
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1400px) {
+    #container {
+        left: 7%;
+        top: 3%;
+    }
+}
+@media screen and (max-width: 1280px) {
     #container {
         left: 4.5%;
+        top: 3%;
     }
+}
+@media screen and (max-width: 1199px) {
     #hey {
         font-size: 50px;
     }
