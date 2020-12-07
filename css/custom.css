@@ -173,10 +173,10 @@ header .content {
 }
 #scene li:nth-child(4) {
     top: 200px !important;
-    left: -125px !important;
+    left: -100px !important;
 }
 #scene li:nth-child(4) img {
-    width: 120%;
+    width: 125%;
 }
 
 .bio {
